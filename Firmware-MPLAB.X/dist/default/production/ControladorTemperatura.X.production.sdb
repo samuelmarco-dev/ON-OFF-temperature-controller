@@ -1,0 +1,629 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+[v i2___awdiv __awdiv `(i  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+[v i2___awmod __awmod `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+[v i1___lldiv __lldiv `(ul  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"35 M:\Universidade\UTFPR 2024\1° Semestre - 2024.1\Microcontroladores\Projeto\ControladorTemperatura.X\main.c
+[v _setTemperaturaAmbiente setTemperaturaAmbiente `(v  1 e 1 0 ]
+"59
+[v _HighPriorityISR HighPriorityISR `IIL(v  1 e 1 0 ]
+"131
+[v _LowPriorityISR LowPriorityISR `IIH(v  1 e 1 0 ]
+"161
+[v _main main `(v  1 e 1 0 ]
+"12 M:\Universidade\UTFPR 2024\1° Semestre - 2024.1\Microcontroladores\Projeto\ControladorTemperatura.X\nxlcd.c
+[v _DelayFor18TCY DelayFor18TCY `(v  1 e 1 0 ]
+[v i1_DelayFor18TCY DelayFor18TCY `(v  1 e 1 0 ]
+[v i2_DelayFor18TCY DelayFor18TCY `(v  1 e 1 0 ]
+"17
+[v _DelayPORXLCD DelayPORXLCD `(v  1 e 1 0 ]
+"22
+[v _DelayXLCD DelayXLCD `(v  1 e 1 0 ]
+"41
+[v _OpenXLCD OpenXLCD `(v  1 e 1 0 ]
+"171
+[v _SetDDRamAddr SetDDRamAddr `(v  1 e 1 0 ]
+"227
+[v _BusyXLCD BusyXLCD `(uc  1 e 1 0 ]
+"388
+[v _WriteCmdXLCD WriteCmdXLCD `(v  1 e 1 0 ]
+[v i1_WriteCmdXLCD WriteCmdXLCD `(v  1 e 1 0 ]
+[v i2_WriteCmdXLCD WriteCmdXLCD `(v  1 e 1 0 ]
+"449
+[v _WriteDataXLCD WriteDataXLCD `(v  1 e 1 0 ]
+[v i1_WriteDataXLCD WriteDataXLCD `(v  1 e 1 0 ]
+[v i2_WriteDataXLCD WriteDataXLCD `(v  1 e 1 0 ]
+"510
+[v _putsXLCD putsXLCD `(v  1 e 1 0 ]
+[s S553 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"2603 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic18f4550.h
+[s S562 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S569 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S576 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S580 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[u S583 . 1 `S553 1 . 1 0 `S562 1 . 1 0 `S569 1 . 1 0 `S576 1 . 1 0 `S580 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES583  1 e 1 @3970 ]
+"2703
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+[s S769 . 1 `uc 1 LATE0 1 0 :1:0 
+`uc 1 LATE1 1 0 :1:1 
+`uc 1 LATE2 1 0 :1:2 
+]
+"3390
+[s S773 . 1 `uc 1 LE0 1 0 :1:0 
+`uc 1 LE1 1 0 :1:1 
+`uc 1 LE2 1 0 :1:2 
+]
+[u S777 . 1 `S769 1 . 1 0 `S773 1 . 1 0 ]
+[v _LATEbits LATEbits `VES777  1 e 1 @3981 ]
+[s S251 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+]
+"3455
+[s S259 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+]
+[u S267 . 1 `S251 1 . 1 0 `S259 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES267  1 e 1 @3986 ]
+"3623
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S288 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"3873
+[s S295 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S302 . 1 `S288 1 . 1 0 `S295 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES302  1 e 1 @3988 ]
+"3999
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S749 . 1 `uc 1 TRISE0 1 0 :1:0 
+`uc 1 TRISE1 1 0 :1:1 
+`uc 1 TRISE2 1 0 :1:2 
+]
+"4243
+[s S753 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+]
+[u S757 . 1 `S749 1 . 1 0 `S753 1 . 1 0 ]
+[v _TRISEbits TRISEbits `VES757  1 e 1 @3990 ]
+[s S359 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"4975
+[s S368 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S371 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S374 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S377 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S380 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S382 . 1 `S359 1 . 1 0 `S368 1 . 1 0 `S371 1 . 1 0 `S374 1 . 1 0 `S377 1 . 1 0 `S380 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES382  1 e 1 @4011 ]
+[s S147 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"5183
+[s S156 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S165 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S168 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S170 . 1 `S147 1 . 1 0 `S156 1 . 1 0 `S165 1 . 1 0 `S168 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES170  1 e 1 @4012 ]
+"5400
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"5424
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"5436
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+[s S413 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 TXCKP 1 0 :1:4 
+`uc 1 RXDTP 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"6096
+[s S422 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCMT 1 0 :1:6 
+]
+[s S427 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXCKP 1 0 :1:5 
+]
+[s S430 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 W4E 1 0 :1:1 
+]
+[u S433 . 1 `S413 1 . 1 0 `S422 1 . 1 0 `S427 1 . 1 0 `S430 1 . 1 0 ]
+[v _BAUDCONbits BAUDCONbits `VES433  1 e 1 @4024 ]
+"6508
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"6579
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"6664
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S21 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"6708
+[s S24 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S28 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S35 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S38 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S41 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S44 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S47 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S50 . 1 `S21 1 . 1 0 `S24 1 . 1 0 `S28 1 . 1 0 `S35 1 . 1 0 `S38 1 . 1 0 `S41 1 . 1 0 `S44 1 . 1 0 `S47 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES50  1 e 1 @4034 ]
+"6790
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"6797
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+[s S462 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"7586
+[s S464 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S467 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S470 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S473 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S476 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S485 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_IPEN 1 0 :1:7 
+]
+[s S488 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 nIPEN 1 0 :1:7 
+]
+[u S496 . 1 `S462 1 . 1 0 `S464 1 . 1 0 `S467 1 . 1 0 `S470 1 . 1 0 `S473 1 . 1 0 `S476 1 . 1 0 `S485 1 . 1 0 `S488 1 . 1 0 ]
+[v _RCONbits RCONbits `VES496  1 e 1 @4048 ]
+"8067
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+"8144
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"8151
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+[s S205 . 1 `uc 1 INT1IF 1 0 :1:0 
+`uc 1 INT2IF 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 INT1IE 1 0 :1:3 
+`uc 1 INT2IE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 INT1IP 1 0 :1:6 
+`uc 1 INT2IP 1 0 :1:7 
+]
+"8438
+[s S214 . 1 `uc 1 INT1F 1 0 :1:0 
+`uc 1 INT2F 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 INT1E 1 0 :1:3 
+`uc 1 INT2E 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 INT1P 1 0 :1:6 
+`uc 1 INT2P 1 0 :1:7 
+]
+[u S223 . 1 `S205 1 . 1 0 `S214 1 . 1 0 ]
+[v _INTCON3bits INTCON3bits `VES223  1 e 1 @4080 ]
+[s S320 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"8530
+[s S323 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S332 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IP 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S337 . 1 `S320 1 . 1 0 `S323 1 . 1 0 `S332 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES337  1 e 1 @4081 ]
+[s S91 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"8612
+[s S100 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S109 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S113 . 1 `S91 1 . 1 0 `S100 1 . 1 0 `S109 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES113  1 e 1 @4082 ]
+"26 M:\Universidade\UTFPR 2024\1° Semestre - 2024.1\Microcontroladores\Projeto\ControladorTemperatura.X\main.c
+[v _tempMin tempMin `uc  1 e 1 0 ]
+"27
+[v _tempDesejada tempDesejada `uc  1 e 1 0 ]
+"30
+[v _valorAD valorAD `ul  1 e 4 0 ]
+[v _leituraAD leituraAD `ul  1 e 4 0 ]
+[v _resultadoAD resultadoAD `ul  1 e 4 0 ]
+"33
+[v _milhar milhar `ul  1 e 4 0 ]
+[v _centena centena `ul  1 e 4 0 ]
+[v _dezena dezena `ul  1 e 4 0 ]
+[v _unidade unidade `ul  1 e 4 0 ]
+[v _aux aux `ul  1 e 4 0 ]
+[v _dezenaDes dezenaDes `ul  1 e 4 0 ]
+[v _unidadeDes unidadeDes `ul  1 e 4 0 ]
+"161
+[v _main main `(v  1 e 1 0 ]
+{
+"233
+[v main@index index `i  1 a 2 63 ]
+"255
+} 0
+"35
+[v _setTemperaturaAmbiente setTemperaturaAmbiente `(v  1 e 1 0 ]
+{
+"40
+[v setTemperaturaAmbiente@index index `i  1 a 2 53 ]
+"57
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 34 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 26 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 30 ]
+"129
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"11
+[v ___lldiv@quotient quotient `ul  1 a 4 46 ]
+"12
+[v ___lldiv@counter counter `uc  1 a 1 50 ]
+"8
+[v ___lldiv@dividend dividend `ul  1 p 4 38 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 42 ]
+"31
+} 0
+"510 M:\Universidade\UTFPR 2024\1° Semestre - 2024.1\Microcontroladores\Projeto\ControladorTemperatura.X\nxlcd.c
+[v _putsXLCD putsXLCD `(v  1 e 1 0 ]
+{
+[v putsXLCD@buffer buffer `*.32uc  1 p 2 27 ]
+"519
+} 0
+"449
+[v _WriteDataXLCD WriteDataXLCD `(v  1 e 1 0 ]
+{
+[v WriteDataXLCD@data data `uc  1 a 1 wreg ]
+[v WriteDataXLCD@data data `uc  1 a 1 wreg ]
+"464
+[v WriteDataXLCD@data data `uc  1 a 1 26 ]
+"496
+} 0
+"41
+[v _OpenXLCD OpenXLCD `(v  1 e 1 0 ]
+{
+[v OpenXLCD@lcdtype lcdtype `uc  1 a 1 wreg ]
+[v OpenXLCD@lcdtype lcdtype `uc  1 a 1 wreg ]
+"50
+[v OpenXLCD@lcdtype lcdtype `uc  1 a 1 27 ]
+"101
+} 0
+"388
+[v _WriteCmdXLCD WriteCmdXLCD `(v  1 e 1 0 ]
+{
+[v WriteCmdXLCD@cmd cmd `uc  1 a 1 wreg ]
+[v WriteCmdXLCD@cmd cmd `uc  1 a 1 wreg ]
+"403
+[v WriteCmdXLCD@cmd cmd `uc  1 a 1 26 ]
+"435
+} 0
+"171
+[v _SetDDRamAddr SetDDRamAddr `(v  1 e 1 0 ]
+{
+[v SetDDRamAddr@DDaddr DDaddr `uc  1 a 1 wreg ]
+[v SetDDRamAddr@DDaddr DDaddr `uc  1 a 1 wreg ]
+"186
+[v SetDDRamAddr@DDaddr DDaddr `uc  1 a 1 26 ]
+"218
+} 0
+"22
+[v _DelayXLCD DelayXLCD `(v  1 e 1 0 ]
+{
+"25
+} 0
+"17
+[v _DelayPORXLCD DelayPORXLCD `(v  1 e 1 0 ]
+{
+"20
+} 0
+"227
+[v _BusyXLCD BusyXLCD `(uc  1 e 1 0 ]
+{
+"273
+} 0
+"12
+[v _DelayFor18TCY DelayFor18TCY `(v  1 e 1 0 ]
+{
+"15
+} 0
+"59 M:\Universidade\UTFPR 2024\1° Semestre - 2024.1\Microcontroladores\Projeto\ControladorTemperatura.X\main.c
+[v _HighPriorityISR HighPriorityISR `IIL(v  1 e 1 0 ]
+{
+"129
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lldiv.c
+[v i1___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+[v i1___lldiv@quotient __lldiv `ul  1 a 4 0 ]
+[v i1___lldiv@counter __lldiv `uc  1 a 1 4 ]
+[v i1___lldiv@dividend dividend `ul  1 p 4 28 ]
+[v i1___lldiv@divisor divisor `ul  1 p 4 32 ]
+"31
+} 0
+"449 M:\Universidade\UTFPR 2024\1° Semestre - 2024.1\Microcontroladores\Projeto\ControladorTemperatura.X\nxlcd.c
+[v i1_WriteDataXLCD WriteDataXLCD `(v  1 e 1 0 ]
+{
+[v i1WriteDataXLCD@data data `uc  1 a 1 wreg ]
+[v i1WriteDataXLCD@data data `uc  1 a 1 wreg ]
+"464
+[v i1WriteDataXLCD@data data `uc  1 a 1 28 ]
+"496
+} 0
+"388
+[v i1_WriteCmdXLCD WriteCmdXLCD `(v  1 e 1 0 ]
+{
+[v i1WriteCmdXLCD@cmd cmd `uc  1 a 1 wreg ]
+[v i1WriteCmdXLCD@cmd cmd `uc  1 a 1 wreg ]
+"403
+[v i1WriteCmdXLCD@cmd cmd `uc  1 a 1 28 ]
+"435
+} 0
+"12
+[v i1_DelayFor18TCY DelayFor18TCY `(v  1 e 1 0 ]
+{
+"15
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+{
+"11
+[v ___llmod@counter counter `uc  1 a 1 36 ]
+"8
+[v ___llmod@dividend dividend `ul  1 p 4 28 ]
+[v ___llmod@divisor divisor `ul  1 p 4 32 ]
+"26
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"11
+[v ___awmod@sign sign `uc  1 a 1 33 ]
+[v ___awmod@counter counter `uc  1 a 1 32 ]
+"8
+[v ___awmod@dividend dividend `i  1 p 2 28 ]
+[v ___awmod@divisor divisor `i  1 p 2 30 ]
+"35
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 34 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 33 ]
+[v ___awdiv@counter counter `uc  1 a 1 32 ]
+"8
+[v ___awdiv@dividend dividend `i  1 p 2 28 ]
+[v ___awdiv@divisor divisor `i  1 p 2 30 ]
+"42
+} 0
+"131 M:\Universidade\UTFPR 2024\1° Semestre - 2024.1\Microcontroladores\Projeto\ControladorTemperatura.X\main.c
+[v _LowPriorityISR LowPriorityISR `IIH(v  1 e 1 0 ]
+{
+"159
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+[v i2___awmod __awmod `(i  1 e 2 0 ]
+{
+[v i2___awmod@sign __awmod `uc  1 a 1 5 ]
+[v i2___awmod@counter __awmod `uc  1 a 1 4 ]
+[v i2___awmod@dividend dividend `i  1 p 2 0 ]
+[v i2___awmod@divisor divisor `i  1 p 2 2 ]
+"35
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v i2___awdiv __awdiv `(i  1 e 2 0 ]
+{
+[v i2___awdiv@quotient __awdiv `i  1 a 2 6 ]
+[v i2___awdiv@sign __awdiv `uc  1 a 1 5 ]
+[v i2___awdiv@counter __awdiv `uc  1 a 1 4 ]
+[v i2___awdiv@dividend dividend `i  1 p 2 0 ]
+[v i2___awdiv@divisor divisor `i  1 p 2 2 ]
+"42
+} 0
+"449 M:\Universidade\UTFPR 2024\1° Semestre - 2024.1\Microcontroladores\Projeto\ControladorTemperatura.X\nxlcd.c
+[v i2_WriteDataXLCD WriteDataXLCD `(v  1 e 1 0 ]
+{
+[v i2WriteDataXLCD@data data `uc  1 a 1 wreg ]
+[v i2WriteDataXLCD@data data `uc  1 a 1 wreg ]
+"464
+[v i2WriteDataXLCD@data data `uc  1 a 1 0 ]
+"496
+} 0
+"388
+[v i2_WriteCmdXLCD WriteCmdXLCD `(v  1 e 1 0 ]
+{
+[v i2WriteCmdXLCD@cmd cmd `uc  1 a 1 wreg ]
+[v i2WriteCmdXLCD@cmd cmd `uc  1 a 1 wreg ]
+"403
+[v i2WriteCmdXLCD@cmd cmd `uc  1 a 1 0 ]
+"435
+} 0
+"12
+[v i2_DelayFor18TCY DelayFor18TCY `(v  1 e 1 0 ]
+{
+"15
+} 0
